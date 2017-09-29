@@ -1,9 +1,60 @@
-
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,600");
 
-// Variables
-@import "variables";
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+}
 
-// Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+section {
+	margin-top: 60px;
+}
+
+.sectionTitle {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #041F1E;
+	font-size: 30px;
+}
+
+.kicker {
+	font-weight: 100;
+	font-style: italic;
+	font-size: 15px;
+	text-align: center;
+	color: #F45866;
+}
+
+form input {
+	margin-top: 40px;
+	border-radius: 0px;
+	border: 0px;
+	border-bottom: 1.5px solid #ccc;
+	outline: none;
+	color: #ccc;
+	transition: .2s;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+form input:focus {
+	color: #041F1E;
+	border-color: #041F1E;
+}
+
+form .btn_create {
+	text-transform: uppercase;
+	padding: 8px 30px;
+	background: transparent;
+	font-weight: bold;
+	color: #06D6A0;
+	border: 3px solid #06D6A0;
+	transition: .3s;
+}
+
+form .btn_create:hover {
+	background: #06D6A0;
+	border-color: #06D6A0;
+	color: white;
+}
